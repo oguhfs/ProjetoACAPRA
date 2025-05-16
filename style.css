@@ -1,77 +1,77 @@
 body {
-    font-family: arial, sans-serif;
-    background-color: white;
     margin: 0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-container {
-    max-width: 700px;
-    background-color: white;
-    margin: 30px auto;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px black;
-
-}
-
-h1 {
-    text-align: center;
-    color: #333366;
-    margin-bottom: 20px;
-    
-}
-
-label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-
-}
-
-input[type="text"],
-input[type="number"],
-textarea {
-    width: 100%;
+.barra-de-cima {
+    background: #242424;
     padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 10px;
 
 }
 
-textarea{
-    resize: vertical;
-
+.barra-navegação {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #000000;
 }
- .Separação{
-    margin-top: 10px;
-    margin-bottom: 20px;
 
-}
-button{
-    background-color: #333366;
-    color: white;
-    padding: 12px 20px;
+.botao-adotar {
+    background-color: orange;
+    margin: -200px;
+    padding: 8px 14px;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 6px;
+    font-weight: bold;
     cursor: pointer;
-    display: block;
-    margin: 20px auto 0;
-    
+    text-decoration: none;
 }
-button:hover {
-    background-color: #555596;
-}
-.obs {
-    font-size: 0.95em;
-    color: red;
-    font-style: italic;
-    margin-bottom: 20px;
 
+.botao-log {
+       background-color: orange;
+    margin: 5px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
 }
-ul {
-    margin-top: 10px;
-    margin-left: 20px;
+
+.botao-cadastro {
+    background-color: orange;
+    margin: 15px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botao-contato {
+    background-color: orange;
+    margin: 15px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.icone {
+    height: 50px;
 }

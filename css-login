@@ -1,1 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+
+*{ margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+header{ 
+   padding: 1rem;
+   background-color: black;
+   text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+img{ 
+    width: 6rem;
+}
+main{
+    padding: 3rem;
+
+    display: flex;
+   flex-direction: column; 
+   gap: 3rem;
+  font-family: "Lobster", sans-serif;
+ text-align: center;
+  color: #574185;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+label[for="text"]{
+    font-size: 2rem;
+    margin-right: 30%;
+}
+input[type="login"]{
+   width: 40%;
+   padding:1rem;
+   border-radius: 6px;
+   border-color: #574185;
+   color: #574185;
+    border: 3px solid #574185;
+}
+input[type="senha"]{
+     width: 40%;
+   padding:1rem;
+   border-radius: 6px;
+   border-color: #574185;
+   color: #574185;
+   border: 3px solid #574185;
+}
+
+label[ for="checkbox"]{
+    margin-right: 28%;
+}
+
+input::placeholder{
+    color: #574185;
+}
+p{
+    margin-left: 25%;
+}
+
+button{
+    padding: 1rem;
+    margin: 2rem;
+    width: 19%;
+     font-family: "Lobster", sans-serif;
+     color: #574185;
+     background-color:  #ffca7a;
+     font-size: 2rem;
+border:3px solid #574185;
+border-radius: 7px;
+}
+button:hover{
+    background-color:  #6338c0;
+}

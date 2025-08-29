@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+
 </head>
+
 <body>
-    
+    <div>
+        <h1>Cadastro ACAPRA</h1>
+        <form>
+            <div class="divs">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="divs">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div class="divs">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+            </div>
+
+            <div class="divs">
+                <label for="endereco">Endereço</label>
+                <textarea id="endereco" name="endereco" rows="2" placeholder="Rua, nº, bairro, cidade"
+                    required></textarea>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
 </body>
+
 </html>

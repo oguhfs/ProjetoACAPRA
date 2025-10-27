@@ -1,0 +1,76 @@
+.consciência {
+  background: #4b3b8f; 
+  color: white;
+  text-align: center;
+  padding: 60px 10%;
+  position: relative;
+  border-radius: 8px;
+  margin: 40px 5%;
+  font-family: 'Georgia', serif;
+}
+
+
+.consciência h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.consciência h2 {
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: #ffe082; 
+}
+
+
+.consciência p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.Denuncia-info {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #ffe082;
+}
+
+.encontre-o-pet {
+  display: block; 
+  background: #ff9800;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  margin: 30px auto 0; 
+  transition:  0.3s ease;
+  width: fit-content; 
+}
+
+.encontre-o-pet:hover {
+  background: #e68900;
+}
+
+/* Patinhas decorativas */
+.consciência::before,
+.consciência::after {
+  content: "";
+  background: url('https://cdn-icons-png.flaticon.com/512/616/616408.png') no-repeat center;
+  background-size: 40px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  opacity: 0.7;
+}
+
+.consciência::before {
+  bottom: 20px;
+  left: 20px;
+}
+
+.consciência::after {
+  top: 20px;
+  right: 20px;
+}

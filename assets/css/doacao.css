@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #2c2147;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header nav a {
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* TÍTULO */
+.titulo-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.titulo-logo img {
+  width: 80px;
+  height: auto;
+}
+
+.titulo-logo h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.5em;
+}
+
+.pix {
+  margin: 20px 0;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* TEXTO PRINCIPAL */
+.text {
+  width: 75%;
+  margin: auto;
+  text-align: left;
+  line-height: 1.6em;
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+/* CAMPANHAS */
+.campanhas {
+  background: white;
+  margin: 20px auto;
+  padding: 15px;
+  width: 75%;
+  border-radius: 15px;
+  text-align: left;
+  border: 2px solid #000000;
+}
+
+.campanhas ul {
+  list-style: "🐾 ";
+  padding-left: 20px;
+}
+
+/* PARCEIROS */
+.parceiros {
+  margin: 30px auto;
+  width: 75%;
+  text-align: left;
+}
+
+.parceiros ul {
+  list-style: "✔ ";
+  padding-left: 20px;
+}
+
+/* GALERIA */
+.galeria {
+  margin: 30px auto;
+  width: 80%;
+}
+
+.galeria .fotos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.galeria .fotos img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
+/* LINKS EXTRAS */
+.links {
+  margin: 20px;
+  font-size: 1em;
+}
+
+.links a {
+  color: #ffd27f;
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+}
+
+footer button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}

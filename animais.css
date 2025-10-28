@@ -60,3 +60,5 @@ body {
         display: none;
     }
 }
+
+@import url(animais.css);

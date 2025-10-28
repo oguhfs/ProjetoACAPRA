@@ -143,3 +143,5 @@ footer button {
   color: white;
   cursor: pointer;
 }
+
+@import url(estatisticas.css);

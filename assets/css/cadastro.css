@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 
-/* Barra superior preta */
+
 header {
     width: 100%;
     background-color: #000;
@@ -21,7 +21,7 @@ header img {
     width: 80px;
 }
 
-/* Container principal */
+
 div {
     margin-top: 40px;
     background-color: #fff;
@@ -31,7 +31,7 @@ div {
     text-align: center;
 }
 
-/* Título principal */
+
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 40px;
@@ -39,7 +39,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Campos de entrada */
+
 .divs {
     margin-bottom: 20px;
     text-align: left;
@@ -68,7 +68,7 @@ input:focus, textarea:focus {
     border-color: #a98be0;
 }
 
-/* Botão */
+
 button {
     width: 200px;
     background-color: #fbc26c;

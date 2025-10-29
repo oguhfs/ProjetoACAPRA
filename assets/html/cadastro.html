@@ -34,9 +34,25 @@
                 <textarea placeholder="Rua, Nº, bairro, cidade"></textarea>
             </div>
 
-            <a href="formulario.html"><button type="submit">Cadastrar</button></a>
+            <button type="button" id="btnCadastrar">Cadastrar</button>
         </form>
     </div>
+
+<script>
+  document.getElementById("btnCadastrar").addEventListener("click", function() {
+    const nome = document.querySelector('input[name="nome"]').value.trim();
+    const email = document.querySelector('input[name="email"]').value.trim();
+    const telefone = document.querySelector('input[name="telefone"]').value.trim();
+    const endereco = document.querySelector('textarea').value.trim();
+
+    if (nome && email && telefone && endereco) {
+      window.location.href = "login.html";
+    } else {
+      alert("Por favor, preencha todos os campos antes de se cadastrar.");
+    }
+  });
+</script>
+
 </body>
 
 </html>

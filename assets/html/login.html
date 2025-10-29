@@ -24,12 +24,29 @@
         <input type="senha" required id="senha" name="senha" placeholder="inserir senha"><br>
         <input type="checkbox" id="checkbox" name="opção" value="manter conectado"><label for="checkbox">Mantenha-me
           conectado</label>
-         <p>Não possui cadastro? <a href="../html/cadastro.html"><button>cadastrar-se</button></a></p >
-          <button type="submit">ENTRAR</button>
+        <p>
+          Não possui cadastro? <button type="button" class="botao-cadastro" onclick="window.location.href='cadastro.html'">Cadastrar-se</button>
+        </p >
+        <button type="submit" onclick="fazerLogin(event)">ENTRAR</button>
       </form>
     </section>
   </main>
-  <footer>teste</footer>
+
+<script>
+  function fazerLogin(event) {
+    event.preventDefault();
+
+    const login = document.getElementById("login").value;
+    const senha = document.getElementById("senha").value;
+
+    if (login && senha) {
+      window.location.href = "index.html";
+    } else {
+      alert("Por favor, preencha todos os campos antes de entrar")
+    }
+  }
+</script>
+
 </body>
 
 </html>

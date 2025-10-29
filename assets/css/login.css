@@ -79,3 +79,22 @@ border-radius: 7px;
 button:hover{
     background-color:  #6338c0;
 }
+
+.botao-cadastro {
+    display: inline;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #574185;
+    border: 1.5px solid #574185;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.botao-cadastro:hover {
+    background-color: #ffca7a;
+    color: #3b2670;
+}

@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-  padding: 20px;
+    padding: 20px;
 } 
 
 .divlogo {
@@ -31,7 +31,7 @@ color: white ;
 }
 
 .descricao-animais { 
-background-color: beige;
+
 color: white ;
 }
 

@@ -1,10 +1,16 @@
 :root {
-    --cor-primaria: azure;
-    --tamanho-padrao: 16px;
+    --: azure;
 }
   
+.blocoanimais {
+    display: flex ;
+width:400px ;
+height: 400px;
+}
+
 
 .animais {
+    display: flex ;
 background-color: beige;
 color: rgb(248, 83, 83);
 }
@@ -17,46 +23,4 @@ color: brown;
 
 body {
     background-color: rgb(128, 101, 61);
-}
-
-.mostrar-mobile {
-    display: block;
-}
-
-.mostrar-desktop {
-    display: none;
-}
-
-
-
-@media (min-width: 592px) and (max-width: 795px) {
-    body {
-        background-color: azure;
-    }
-
-
-
-    .mostrar-mobile {
-        display: none;
-    }
-
-    .mostrar-desktop {
-        display: block;
-    }
-
-}
-
-@media(min-width: 796px) {
-    body {
-        background-color: rgb(99, 75, 42);
-    }
-
-
-    .mostrar-mobile {
-        display: block;
-    }
-
-    .mostrar-desktop {
-        display: none;
-    }
 }

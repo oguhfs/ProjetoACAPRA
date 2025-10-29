@@ -1,26 +1,37 @@
-:root {
-    --: azure;
-}
-  
-.blocoanimais {
-    display: flex ;
-width:400px ;
-height: 400px;
+body {
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  padding: 20px;
+} 
+
+.divlogo {
+width: 85px;
+height: auto;
 }
 
+.blocoanimais {
+background-color: #333366 ;
+width:400px ;
+height: auto ;
+display:flex ;
+flex-direction: column;
+align-items: center;
+}
+
+.fotosanimais {
+width: 100%;
+border-radius: 8px;
+}
 
 .animais {
-    display: flex ;
-background-color: beige;
-color: rgb(248, 83, 83);
+color: white ;
 }
 
 .descricao-animais { 
-    background-color: beige;
-color: brown;
+background-color: beige;
+color: white ;
 }
 
-
-body {
-    background-color: rgb(128, 101, 61);
-}

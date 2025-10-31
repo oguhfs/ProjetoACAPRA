@@ -1,0 +1,154 @@
+/* Estilo geral */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f6fb;
+  color: #2f2f2f;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #5a4baf; /* Cor principal da logo */
+  color: white;
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+
+header .logo {
+  width: 110px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+header h1 span {
+  color: #dcd6ff; /* tom lilás claro de destaque */
+}
+
+header p {
+  margin-top: 0.6rem;
+  font-size: 1.1rem;
+  color: #eae7ff;
+}
+
+/* Estrutura principal */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 3rem 1rem;
+}
+
+/* Formulário */
+.form-section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 2rem;
+  width: 350px;
+  border-top: 6px solid #5a4baf;
+}
+
+.form-section h2 {
+  color: #5a4baf;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.4rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #5a4baf;
+  box-shadow: 0 0 6px rgba(90,75,175,0.3);
+  outline: none;
+}
+
+button {
+  width: 100%;
+  margin-top: 1.5rem;
+  background-color: #5a4baf;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #403685;
+}
+
+/* Informações */
+.info-section {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 2rem;
+  width: 300px;
+  border-top: 6px solid #b3a8f2;
+}
+
+.info-section h2 {
+  color: #5a4baf;
+  margin-bottom: 1rem;
+}
+
+.info-section p {
+  margin: 0.8rem 0;
+}
+
+.info-section a {
+  color: #5a4baf;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.info-section a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  background-color: #403685;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-section, .info-section {
+    width: 90%;
+  }
+}

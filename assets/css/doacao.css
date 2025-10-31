@@ -123,20 +123,13 @@ header nav a {
   margin: 0 5px;
 }
 
-/* FOOTER */
 footer {
-  margin-top: 40px;
-}
-
-footer button {
-  margin: 0 10px;
-  padding: 10px 20px;
-  font-size: 18px;
-  border: none;
-  border-radius: 10px;
-  background: black;
+  background-color: #403685;
   color: white;
-  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
 }
 
 @import url(doacao.css);

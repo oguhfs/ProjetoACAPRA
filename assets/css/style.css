@@ -129,4 +129,13 @@ body {
   margin-bottom: 15px;
 }
 
+footer {
+  background-color: #403685;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
 @import url(style.css);

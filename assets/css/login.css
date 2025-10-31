@@ -98,3 +98,12 @@ button:hover{
     background-color: #ffca7a;
     color: #3b2670;
 }
+
+footer {
+  background-color: #403685;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
